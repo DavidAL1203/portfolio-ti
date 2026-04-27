@@ -1,0 +1,5 @@
+nome = str(input('Digite seu nome completo: '))
+nomel = nome.lower()
+a = nomel.find('silva')
+if a < 0 : print('O nome {} não tem a palavra Silva!'.format(nome))
+else: print(' O nome {} tem a palavra Silva!'.format(nome))
